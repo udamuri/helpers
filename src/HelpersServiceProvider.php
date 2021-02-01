@@ -13,8 +13,7 @@ class HelpersServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Udamuri\Terbilang\Terbilang');
-        // $this->loadViewsFrom(__DIR__.'/views', 'article');
+        $this->app->make('Udamuri\Helpers\Terbilang');
     }
 
     /**
@@ -24,6 +23,6 @@ class HelpersServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //include __DIR__. '/routes.php';
+        
     }
 }
