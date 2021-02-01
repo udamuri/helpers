@@ -7,15 +7,19 @@
     ],
     "type": "composer-plugin",
     "license": "MIT",
-    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Muri Budiman",
             "email": "udamuri@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=7.0"
+    },
     "autoload": {
+        "classmap": [
+            "src/"
+        ],
         "psr-4": {
             "Udamuri\\Helpers\\": "src/"
         }
