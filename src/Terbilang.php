@@ -17,7 +17,7 @@ class Terbilang
 
     private static function denominator($value) {
 		$value = abs($value);
-		$alphabet  = ["", "satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan", "sepuluh", "sebelas"];
+		$alphabet  = ["nol", "satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan", "sepuluh", "sebelas"];
 		$temp = "";
 		if ($value < 12) {
 			$temp = " ". $alphabet [$value];
