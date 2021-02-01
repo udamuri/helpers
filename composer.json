@@ -7,7 +7,7 @@
     ],
     "type": "composer-plugin",
     "license": "MIT",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Muri Budiman",
@@ -23,6 +23,13 @@
         ],
         "psr-4": {
             "Udamuri\\Helpers\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Udamuri\\Helpers\\LaravelModulesServiceProvider"
+          ]
         }
     }
 }
