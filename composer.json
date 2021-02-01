@@ -15,16 +15,15 @@
         }
     ],
     "require": {
-        "php": "^7.1|^8.0"
+        "php": ">=7.0"
     },
     "autoload": {
         "psr-4": {
             "Udamuri\\Helpers\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Udamuri\\Helpers\\": "packages/udamuri/helpers/src"
-        }
+        },
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ]
     }
 }
