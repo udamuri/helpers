@@ -14,12 +14,15 @@
             "email": "udamuri@gmail.com"
         }
     ],
-    "require": {
-        "php": "^7.1|^8.0"
-    },
+    "require": {},
     "autoload": {
+        "classmap": [
+            "src/",
+            "database/seeds",
+            "database/factories"
+        ],
         "psr-4": {
-            "Udamuri\\Helpers\\": "src"
+            "Udamuri\\Helpers\\": "src/"
         }
     }
 }
