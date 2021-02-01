@@ -7,7 +7,7 @@
     ],
     "type": "composer-plugin",
     "license": "MIT",
-    "minimum-stability": "dev",
+    "minimum-stability": "v1.0",
     "authors": [
         {
             "name": "Muri Budiman",
