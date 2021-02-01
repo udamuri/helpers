@@ -16,20 +16,8 @@
     ],
     "require": {},
     "autoload": {
-        "classmap": [
-            "src/",
-            "database/seeds",
-            "database/factories"
-        ],
         "psr-4": {
             "Udamuri\\Helpers\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-          "providers": [
-            "Udamuri\\Helpers\\LaravelModulesServiceProvider"
-          ]
         }
     }
 }
