@@ -14,7 +14,13 @@
             "email": "udamuri@gmail.com"
         }
     ],
+<<<<<<< HEAD
     "require": {},
+=======
+    "require": {
+        "php": ">=7.0"
+    },
+>>>>>>> 4158074ff1c42e8f24874df1a9d1713a0db36f41
     "autoload": {
         "classmap": [
             "src/",
@@ -23,6 +29,20 @@
         ],
         "psr-4": {
             "Udamuri\\Helpers\\": "src/"
+<<<<<<< HEAD
+=======
+        },
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Udamuri\\Helpers\\HelpersServiceProvider"
+            ]
+>>>>>>> 4158074ff1c42e8f24874df1a9d1713a0db36f41
         }
     }
 }
