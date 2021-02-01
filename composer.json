@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Udamuri\\Helpers\\": "src"
+            "Udamuri\\Helpers\\": "src/"
         }
     },
     "autoload-dev": {
