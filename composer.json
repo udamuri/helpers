@@ -1,0 +1,25 @@
+{
+    "name": "udamuri/helpers",
+    "description": "Laravel helpers package",
+    "keywords": [
+        "helpers",
+        "terbilang"
+    ],
+    "type": "composer-plugin",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Muri Budiman",
+            "email": "udamuri@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Udamuri\\Helpers\\": "src"
+        }
+    }
+}
