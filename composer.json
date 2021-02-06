@@ -7,6 +7,7 @@
     ],
     "type": "composer-plugin",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Muri Budiman",
@@ -14,15 +15,16 @@
         }
     ],
     "require": {
-        "php": "^7.1",
-        "udamuri/helpers": "~v1.0"
+        "php": "^7.2 || ^8.0",
+        "udamuri/helpers": "^1",
+        "illuminate/support": "^6|^7|^8"
     },
     "autoload": {
         "classmap": [
             "src/"
         ],
         "psr-4": {
-            "Udamuri\\Helpers\\": "src/"
+            "Udamuri\\Helpers\\": "src"
         }
     },
     "extra": {
