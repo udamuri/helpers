@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": "^7.2 || ^8.0",
-        "udamuri/helpers": "^v1.0",
+        "udamuri/helpers": "^dev-master",
         "illuminate/support": "^6|^7|^8"
     },
     "autoload": {
