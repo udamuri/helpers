@@ -2,6 +2,7 @@
     "name": "udamuri/helpers",
     "description": "Laravel helpers package",
     "keywords": [
+        "laravel",
         "helpers",
         "terbilang"
     ],
@@ -16,7 +17,7 @@
     ],
     "require": {
         "php": "^7.2 || ^8.0",
-        "udamuri/helpers": "^1",
+        "udamuri/helpers": "^v1.0",
         "illuminate/support": "^6|^7|^8"
     },
     "autoload": {
